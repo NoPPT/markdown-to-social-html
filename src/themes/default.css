@@ -1,8 +1,8 @@
 /* 全局属性 */
 #hhmd {
-    font-family: var(--sans-serif-font);
-    line-height: 1.75;
-    font-size: 16px;
+  font-family: var(--sans-serif-font);
+  line-height: 1.75;
+  font-size: 16px;
 }
 /* 全局子元素属性 */
 /* 支持分组 */
@@ -14,7 +14,7 @@
 #hhmd h6,
 #hhmd p,
 #hhmd pre {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 /* 段落 */
 #hhmd p {
@@ -27,9 +27,9 @@
 }
 /* 一级标题 */
 #hhmd h1 {
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1.5em;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.5em;
 }
 /* 标题文字 */
 #hhmd h1 span {
@@ -42,74 +42,74 @@
 }
 /* 二级标题 */
 #hhmd h2 {
-    text-align: center;
-    font-size: 1.2em;
-    border-bottom: 1px solid #f7f7f7;
-    font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  border-bottom: 1px solid #f7f7f7;
+  font-weight: bold;
 }
 /* 三-六级标题 */
 #hhmd h3,
 #hhmd h4,
 #hhmd h5,
 #hhmd h6 {
-    font-size: 1em;
-    font-weight: bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 /* 列表 */
 #hhmd ul,
 #hhmd ol {
-    padding-left: 1.2em;
+  padding-left: 1.2em;
 }
 /* 列表元素 */
 #hhmd li {
-    margin-left: 1.2em;
+  margin-left: 1.2em;
 }
 /* 图片 */
 #hhmd img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 /* 表格 */
 #hhmd table {
-    border-collapse: collapse;
-    margin: 1.4em auto;
-    max-width: 100%;
-    table-layout: fixed;
-    text-align: left;
-    overflow: auto;
-    display: table;
-    word-wrap: break-word;
-    word-break: break-all;
+  border-collapse: collapse;
+  margin: 1.4em auto;
+  max-width: 100%;
+  table-layout: fixed;
+  text-align: left;
+  overflow: auto;
+  display: table;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 /* 表格单元格 */
 #hhmd table td,
 #hhmd table th {
-    font-size: 0.75em;
-    padding: 9px 12px;
-    line-height: 22px;
-    color: #222;
-    border: 1px solid #d8d8d8;
-    vertical-align: top;
+  font-size: 0.75em;
+  padding: 9px 12px;
+  line-height: 22px;
+  color: #222;
+  border: 1px solid #d8d8d8;
+  vertical-align: top;
 }
 /* 表格表头 */
 #hhmd table th {
-    font-weight: bold;
-    background-color: #f0f0f0;
+  font-weight: bold;
+  background-color: #f0f0f0;
 }
 /* 表格斑马条纹效果 */
 #hhmd table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 /* 引用块 */
 #hhmd blockquote {
-    background: #afb8c133;
-    border-left: 0.5em solid #ccc;
-    margin: 1.5em 0;
-    padding: 0.5em 10px;
-    font-style: italic;
-    font-size: 0.9em;
+  background: #afb8c133;
+  border-left: 0.5em solid #ccc;
+  margin: 1.5em 0;
+  padding: 0.5em 10px;
+  font-style: italic;
+  font-size: 0.9em;
 }
 /* 引用块前缀 */
 #hhmd blockquote::before {
@@ -119,58 +119,58 @@
 }
 /* 行内代码 */
 #hhmd p code {
-    font-family: var(--monospace-font);
-    color: #ff502c;
-    padding: 4px 6px;
-    font-size: 0.78em;
+  font-family: var(--monospace-font);
+  color: #ff502c;
+  padding: 4px 6px;
+  font-size: 0.78em;
 }
 /* 代码块外围 */
 #hhmd pre {
-    border-radius: 5px;
-    line-height: 2;
-    margin: 1em 0.5em;
-    padding: .5em;
-    box-shadow: rgba(0, 0, 0, 0.55) 0px 1px 5px;
+  border-radius: 5px;
+  line-height: 2;
+  margin: 1em 0.5em;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 1px 5px;
 }
 /* 代码块 */
 #hhmd pre code {
-    font-family: var(--monospace-font);
-    display: block;
-    overflow-x: auto;
-    margin: .5em;
-    padding: 0;
+  font-family: var(--monospace-font);
+  display: block;
+  overflow-x: auto;
+  margin: 0.5em;
+  padding: 0;
 }
 /* 分割线 */
 #hhmd hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 /* 链接 */
 #hhmd a {
-    word-wrap: break-word;
-    color: #0069c2;
+  word-wrap: break-word;
+  color: #0069c2;
 }
 /* 原始链接旁脚注上标 */
 #hhmd .footnote {
-    color: #0069c2;
+  color: #0069c2;
 }
 /* 脚注行 */
 #hhmd #footnotes p {
-    display: flex;
-    margin: 0;
-    font-size: 0.9em;
+  display: flex;
+  margin: 0;
+  font-size: 0.9em;
 }
 /* 脚注行内编号 */
 #hhmd .footnote-num {
-    display: inline;
-    width: 10%;
+  display: inline;
+  width: 10%;
 }
 /* 脚注行内文字 */
 #hhmd .footnote-txt {
-    display: inline;
-    width: 90%;
-    word-wrap: break-word;
-    word-break: break-all;
+  display: inline;
+  width: 90%;
+  word-wrap: break-word;
+  word-break: break-all;
 }

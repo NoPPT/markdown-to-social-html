@@ -5,9 +5,9 @@ const app = express();
 const port = 3000;
 
 // 添加中间件来解析JSON请求体
-app.use(express.json({ limit: "10mb" }));
+app.use(express.json({ limit: "2mb" }));
 // 添加中间件来解析URL编码的请求体
-app.use(express.urlencoded({ extended: true, limit: "10mb" }));
+app.use(express.urlencoded({ extended: true, limit: "2mb" }));
 
 // 添加请求日志中间件
 app.use((req, res, next) => {

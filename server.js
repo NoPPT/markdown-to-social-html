@@ -1,5 +1,8 @@
 import express from "express";
 import { convertMarkdownToWxgzhSocialHtml } from "./dist/index.js";
+import { readFile } from "fs/promises";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 
 const app = express();
 const port = 3000;
@@ -32,7 +35,17 @@ app.post("/", async (req, res) => {
 });
 
 app.get("/", async (req, res) => {
-  res.send("hello world");
+  const { themeId } = req.query || {};
+
+  const __dirname = dirname(fileURLToPath(import.meta.url));
+  const path = join(__dirname, "test/test.md");
+  const md = await readFile(path, "utf8");
+
+  const result = await convertMarkdownToWxgzhSocialHtml(
+    md,
+    themeId || "default"
+  );
+  res.send(result.html);
 });
 
 // 添加错误处理中间件

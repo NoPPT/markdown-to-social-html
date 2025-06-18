@@ -1,8 +1,8 @@
 {
-  "name": "n8n-node-markdown-to-social-html",
+  "name": "markdown-to-social-html",
   "version": "0.0.1",
-  "private": true,
   "type": "module",
+  "main": "./dist/index.js",
   "files": [
     "dist"
   ],

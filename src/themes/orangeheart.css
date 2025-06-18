@@ -7,6 +7,7 @@
   font-family: var(--sans-serif-font);
   line-height: 1.75;
   font-size: 16px;
+  padding: 0px;
 }
 #hhmd p,
 #hhmd pre {
